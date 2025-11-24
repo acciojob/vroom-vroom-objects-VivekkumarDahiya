@@ -4,7 +4,7 @@ class Car{
 		this.model=model
 }
 	getMakeModel(){
-		return console.log(`${this.make}${this.model}`)
+		return `${this.make}${this.model}`
 }
 }
 class SportsCar extends Car{
@@ -13,7 +13,7 @@ class SportsCar extends Car{
 		this.topSpeed=topSpeed;
 	}
 	getTopSpeed(){
-		return console.log(`${this.topSpeed}`)
+		return `${this.topSpeed}`
 }
 }
 const car = new SportsCar("Toyota","Corolla",488);
