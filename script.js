@@ -13,7 +13,7 @@ class SportsCar extends Car{
 		this.topSpeed=topSpeed;
 	}
 	getTopSpeed(){
-		return `${this.topSpeed}`
+		return  this.topSpeed;
 }
 }
 const car = new SportsCar("Toyota","Corolla",488);
